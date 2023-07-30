@@ -23,20 +23,27 @@
             <li>Sunday 11:48</li>
             <li>Mostly Sunny</li>
           </ul>
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
           <div class="row">
             <div class="col-6">
-              <div class="d-flex weather-temperature">
-  <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Sunny" id="icon" />
-  <div>
-    <strong id="temperature"></strong
-    ><span class="units"> °C</span>
-  </div>
-
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> 6 °C</span>
+                </div>
+              </div>
+            </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 51%</li>
-                <li>Wind: 29km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
