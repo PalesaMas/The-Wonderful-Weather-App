@@ -25,9 +25,12 @@ li {
   line-height: 19px;
 }
 
-.weather-app {
+.waeather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.weather-app {
   padding: 20px;
   border: 1px solid #e2e2e2;
   border-radius: 5px;
