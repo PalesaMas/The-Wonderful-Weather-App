@@ -58,15 +58,14 @@ function displayForecast() {
                   <span class="weather-forecast-temperatur-max">18°</span>
 
                   <span class="weather-forecast-temperatur-min">12°</span>
-                </div>
+                
               </div>
-             
+              </div>
             `;
   });
 
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
-  console.log(forecastHTML);
 }
 
 function displayTemperature(response) {
